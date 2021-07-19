@@ -1,3 +1,3 @@
 # NLW6-OriginSix
-site feito em html, css e js. 
-<img src="src/img/fotoprincipal.png">
+site feito em html, css e js. <br/>
+<img src="src/img/img1.png">
