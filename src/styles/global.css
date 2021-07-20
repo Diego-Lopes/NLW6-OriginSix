@@ -1,6 +1,8 @@
 :root {
   font-size: 62.5%;
 
+  --header-height: 4.5rem;
+
   /* variaveis de cores em hsl*/
   --hue: 159;
   /* hsl color mode */
