@@ -1,0 +1,58 @@
+/* Navigation mobile */
+
+/* esconde o menu quando não está no celular.*/
+nav .menu {
+  opacity: 0;
+  visibility: hidden;
+  text-decoration: none;
+}
+
+nav ul li {
+  text-decoration: none !important;
+  text-align: center;
+}
+/* animação da cor, posso definir animação em display, background e cor. pesquisa mais sobre quais propriedade tem animação */
+nav ul li a {
+  transition: color 0.2s;
+  position: relative;
+}
+
+nav ul li a:hover {
+  color: var(--base-color);
+}
+
+/* barra de cor inferior. */
+nav ul li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--base-color);
+  position: absolute;
+  left: 0;
+  bottom: -2.4rem;
+
+  transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+/* mostrar menu */
+nav.show .menu {
+  opacity: 1;
+  visibility: visible;
+  background: var(--body-color);
+
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+nav.show .menu {
+  display: grid;
+  place-content: center;
+}
+nav.show ul.grid {
+  gap: 6.4rem;
+}

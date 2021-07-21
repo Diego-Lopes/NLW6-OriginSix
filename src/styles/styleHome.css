@@ -12,13 +12,13 @@ nav {
 }
 
 body {
-  font: 400 1rem 'DM Sans', sans-serif;
+  font: 400 1rem "DM Sans", sans-serif;
   color: var(--text-color);
   background: var(--body-color);
   -webkit-font-smoothing: antialiased;
 }
-h1 {
-  font: 700 3rem 'Poppins', sans-serif;
+.title {
+  font: 700 3rem "Poppins", sans-serif;
   color: var(--title-color);
   -webkit-font-smoothing: auto;
 }
@@ -39,7 +39,7 @@ main {
   margin-top: calc(var(--header-height) + 3.2rem);
 }
 .logo {
-  font: 700 2.1rem 'Poppins', sans-serif;
+  font: 700 2.1rem "Poppins", sans-serif;
   color: var(--title-color);
 }
 .logo span {
@@ -61,7 +61,7 @@ main {
   color: var(--text-color-light);
   padding: 1.8rem 3.2rem;
   border-radius: 0.4rem;
-  font: 500 1.6rem 'DM Sans', sans-serif;
+  font: 500 1.6rem "DM Sans", sans-serif;
   transition: background 0.3s;
 }
 
@@ -85,7 +85,7 @@ main {
 }
 
 #home .image::before {
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   background: var(--base-color-second);
