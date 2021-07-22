@@ -1,0 +1,8 @@
+.cards.grid {
+  gap: 2.4rem;
+}
+
+.card {
+  padding: 5.8rem 3.2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+}
