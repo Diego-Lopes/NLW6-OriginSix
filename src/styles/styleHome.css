@@ -71,6 +71,17 @@ main {
 .section {
   padding: 6rem 0;
 }
+.section .title {
+  margin-bottom: 1.6rem;
+}
+
+.section header {
+  margin-bottom: 6.4rem;
+}
+
+.section header strong {
+  color: var(--base-color);
+}
 
 #home {
   overflow: hidden;
@@ -122,13 +133,4 @@ main {
 
 #home .text p {
   margin-bottom: 1.6rem;
-}
-
-.divider-1 {
-  height: 1px;
-  background: linear-gradient(
-    270deg,
-    hsla(var(--hue), 36%, 57%, 1) 0%,
-    hsla(var(--hue), 65%, 88%, 0.34) 100%
-  );
 }
