@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <!--SCRIPT SWIPER-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- STYLES -->
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/styleHome.css" />
@@ -158,76 +160,79 @@
       <div class="divider-1"></div>
       <!-- DEPOIMENTOS -->
       <section class="section" id="testimonials">
-        <div class="container grid">
+        <div class="container">
           <header>
             <h2 class="title">Depoimentos de quem já passou por aqui</h2>
           </header>
 
-          <div class="testimonials">
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span> Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Iure sed aut incidunt, maiores voluptatum
-                  voluptates fugiat maxime eligendi natus distinctio officiis
-                  quis, ratione amet voluptatibus tempore enim! Amet, saepe
-                  itaque?
-                </p>
-                <cite>
-                  <img
-                    src="https://randomuser.me/api/portraits/men/63.jpg"
-                    alt=""
-                  />
-                  Marcos Souza
-                </cite>
-              </blockquote>
-            </div>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span> Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Iure sed aut incidunt, maiores voluptatum
+                    voluptates fugiat maxime eligendi natus distinctio officiis
+                    quis, ratione amet voluptatibus tempore enim! Amet, saepe
+                    itaque?
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/63.jpg"
+                      alt=""
+                    />
+                    Marcos Souza
+                  </cite>
+                </blockquote>
+              </div>
 
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span> Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Iure sed aut incidunt, maiores voluptatum
-                  voluptates fugiat maxime eligendi natus distinctio officiis
-                  quis, ratione amet voluptatibus tempore enim! Amet, saepe
-                  itaque?
-                </p>
-                <cite>
-                  <img
-                    src="https://randomuser.me/api/portraits/men/77.jpg"
-                    alt=""
-                  />
-                  Flávio Mesquece
-                </cite>
-              </blockquote>
-            </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span> Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Iure sed aut incidunt, maiores voluptatum
+                    voluptates fugiat maxime eligendi natus distinctio officiis
+                    quis, ratione amet voluptatibus tempore enim! Amet, saepe
+                    itaque?
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/77.jpg"
+                      alt=""
+                    />
+                    Flávio Mesquece
+                  </cite>
+                </blockquote>
+              </div>
 
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span> Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Iure sed aut incidunt, maiores voluptatum
-                  voluptates fugiat maxime eligendi natus distinctio officiis
-                  quis, ratione amet voluptatibus tempore enim! Amet, saepe
-                  itaque?
-                </p>
-                <cite>
-                  <img
-                    src="https://randomuser.me/api/portraits/men/3.jpg"
-                    alt=""
-                  />
-                  Maicon do Joína
-                </cite>
-              </blockquote>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span> Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Iure sed aut incidunt, maiores voluptatum
+                    voluptates fugiat maxime eligendi natus distinctio officiis
+                    quis, ratione amet voluptatibus tempore enim! Amet, saepe
+                    itaque?
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/3.jpg"
+                      alt=""
+                    />
+                    Maicon do Joína
+                  </cite>
+                </blockquote>
+              </div>
             </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
 
       <!-- CONTATO -->
     </main>
-    <!--SCRIPT SWIPER-->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <!--SCRIPT LOCAL-->
     <script src="main.js"></script>
   </body>

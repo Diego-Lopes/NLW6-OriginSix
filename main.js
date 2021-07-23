@@ -33,3 +33,13 @@ window.addEventListener("scroll", function () {
 });
 
 /*Testemonials carousel slider swiper */
+const swiper = new Swiper(".swiper-container", {
+  slidesPerView: 1, //quantos slide vai aparecer.
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  mousewheel: true, //ativar rolagem pela botão rolar do mouse.
+  keyboard: true, //ativar setas do teclado.
+});
+
+/*Swiper*/

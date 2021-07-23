@@ -2,6 +2,17 @@
   background-color: white;
 }
 
+#testimonials header {
+  margin-bottom: 0;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+#testimonials .container {
+  /*removendo as margens para poder aparecer outra parte do comentário*/
+  margin: 0;
+}
+
 #testimonials blockquote {
   padding: 3.2rem;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
@@ -35,4 +46,18 @@
   object-fit: cover; /* mesma pegada do background-size: cover*/
   clip-path: circle();
   margin-right: 1rem;
+}
+
+/*swiper*/
+.swiper-slide {
+  height: auto;
+  padding: 4rem 1rem;
+}
+.swiper-pagination-bullet {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+span.swiper-pagination-bullet-active {
+  /*deixar a bola de paginação colorida. */
+  background-color: var(--base-color);
 }
